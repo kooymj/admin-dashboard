@@ -1,4 +1,54 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .container {
     display: grid;
-    grid-template-columns: 1.5fr 5fr;
+    grid-template-columns: 3fr 5fr;
+}
+
+.container-left {
+    background-color: rgb(11, 122, 122);
+    display: grid;
+    grid-template-rows: 80px 6fr 3fr;
+    justify-content: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 12px;
+    margin-left: -100px;
+}
+
+.dashboard-link-title {
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    font-size: 16px;
+    padding-top: 10px;
+    gap: 5px;
+}
+.dashboard-link-title p {
+    padding-top: 5px;
+}
+
+.container-left p {
+    text-align: left;
+    margin-top: 5px;
+}
+
+.icon-large {
+    padding-left: 15px;
+    height: 36px;
+    width: 36px;
+}
+
+.icon {
+    display: grid;
+    grid-template-columns: 50px 100px;
+    justify-content: center;
+    gap: 10px;
+}
+
+.icon-small {
+    padding-left: 25px;
+    height: 20px;
+    width: 20px;
 }
